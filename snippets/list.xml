@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="true" class="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="0" language="" name="ActorEvents_0" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="0" desc="" dropdown="" fullname="temp" hidden="true" id="1" name="_temp" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_2" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" language="" name="ActorEvents_2" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="0" desc="" dropdown="" fullname="GermType" hidden="true" id="1" name="_GermType" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Enters Screen" enabled="true" id="2" name="event-actor-screen" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="2" language="" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_4_4_Shoot" desc="" description="" design="true" drawOrder="0" id="4" language="" name="Shoot" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <boolean default="false" desc="" dropdown="" fullname="KeyPressed" hidden="false" id="1" name="_KeyPressed" order="1"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Shot" enabled="true" id="3" name="event-key-press-release" order="3" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="4" name="step" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_8_8_Respawncells" desc="" description="" design="true" drawOrder="0" id="8" language="" name="Respawn cells" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <number default="0" desc="" dropdown="" fullname="TempNumber" hidden="true" id="1" name="_TempNumber" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Actor Created" enabled="true" id="1" name="event-group-create-kill" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_9_9_Sticky" desc="" description="" design="true" drawOrder="0" id="9" language="" name="Hits" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events>
+            <event displayName="Group - Group" enabled="true" id="1" name="event-collide-grouptogroup" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_7" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="10" language="" name="ActorEvents_7" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_11_11_Movement" desc="" description="" design="true" drawOrder="0" id="11" language="" name="Movement" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="Actor - Group" enabled="true" id="1" name="event-collide-actortogroup" order="1" repeats="true"/>
+            <event displayName="Enters Screen" enabled="true" id="2" name="event-actor-screen" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_9" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="12" language="" name="ActorEvents_9" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="0" desc="" dropdown="" fullname="GermType" hidden="true" id="1" name="_GermType" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Enters Screen" enabled="true" id="2" name="event-actor-screen" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_11" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="13" language="" name="ActorEvents_11" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="0" desc="" dropdown="" fullname="GermType" hidden="true" id="1" name="_GermType" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Enters Screen" enabled="true" id="2" name="event-actor-screen" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_14_14_Creation" desc="" description="" design="true" drawOrder="0" id="14" language="" name="Creation" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" desc="" dropdown="" fullname="temp" hidden="true" id="1" name="_temp" order="1"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_15_15_UserInterface" desc="" description="" design="true" drawOrder="0" id="15" language="" name="User Interface" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <number default="0" desc="" dropdown="" fullname="nX" hidden="true" id="1" name="_nX" order="0"/>
+        <number default="0" desc="" dropdown="" fullname="nY" hidden="true" id="2" name="_nY" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_13" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="16" language="" name="ActorEvents_13" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+</pack>
