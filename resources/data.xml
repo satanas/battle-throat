@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
+    <music desc="" id="26" loop="true" name="Awawa" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <sprite atlasID="0" default="0" desc="" height="32" id="1" name="Blood cell" shared="false" width="32">
         <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="false" name="blue" numframes="1" originx="16" originy="16" width="32">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="3" id="0" name="Box" rest="0.0" sensor="false"/>
+            <poly data="4,20,0,0,23,7,32,32,7" density="0.1" fric="0.2" gid="-1000" id="0" name="" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="1" loop="false" name="green" numframes="1" originx="16" originy="16" width="32">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+            <poly data="4,20,0,0,23,7,32,32,7" density="0.1" fric="0.2" gid="-1000" id="0" name="" rest="0.0" sensor="true"/>
         </anim>
         <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="2" loop="false" name="red" numframes="1" originx="16" originy="16" width="32">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="red" rest="0.0" sensor="false"/>
+            <poly data="4,20,0,0,23,7,32,32,7" density="0.1" fric="0.2" gid="-1000" id="0" name="" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="false" fric="1.0" gid="3" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Blood cell" oid="-1" pausable="true" rest="0.95" shared="false" sprite="1" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="false" fric="0.75" gid="3" id="0" ignoreg="true" inertia="0.5" ldamp="0.0" lw="false" mass="1.0" name="Blood cell" oid="-1" pausable="true" rest="0.95" shared="false" sprite="1" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="4">
                 <prop id="1" list="0" val="false"/>
@@ -29,36 +30,61 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="13" fixedrot="true" fric="0.0" gid="4" id="11" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="20.0" name="BlueGerm" oid="-1" pausable="true" rest="0.0" shared="false" sprite="12" static="false" touchable="true">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" desc="" height="64" id="14" name="Explosion" shared="false" width="64">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="64" id="0" loop="true" name="main" numframes="1" originx="32" originy="32" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="main" rest="0.0" sensor="true"/>
+    <sprite atlasID="0" default="0" desc="" height="59" id="33" name="Cannon" shared="false" width="89">
+        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="59" id="0" loop="true" name="main" numframes="4" originx="44" originy="29" width="356">
+            <poly data="4,0,0,89,0,89,59,0,59" density="0.1" fric="0.2" gid="1" id="0" name="main" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="16" fixedrot="false" fric="0.2" gid="3" id="13" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Explosion" oid="-1" pausable="true" rest="0.0" shared="false" sprite="14" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="22" fixedrot="false" fric="0.2" gid="1" id="32" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Cannon" oid="-1" pausable="true" rest="0.0" shared="false" sprite="33" static="true" touchable="true">
         <snippets/>
     </actor>
+    <music desc="" id="25" loop="true" name="Exp" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <sprite atlasID="0" default="0" desc="" height="32" id="14" name="Explosion" shared="false" width="32">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="true" name="main" numframes="1" originx="16" originy="16" width="32">
+            <poly data="4,0,1,32,1,32,31,0,31" density="0.1" fric="0.2" gid="6" id="0" name="main" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="16" fixedrot="false" fric="0.2" gid="6" id="13" ignoreg="true" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Explosion" oid="-1" pausable="true" rest="0.0" shared="false" sprite="14" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <music desc="" id="24" loop="true" name="Fire" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <sprite atlasID="0" default="0" desc="" height="32" id="12" name="Germ" shared="false" width="32">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="true" name="blue" numframes="1" originx="16" originy="16" width="32">
+        <anim across="4" atlasID="-1" down="1" durations="80,80,80,80" height="32" id="0" loop="true" name="blue" numframes="4" originx="16" originy="16" width="128">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="blue" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <sprite atlasID="0" default="2" desc="" height="32" id="10" name="Germ" shared="false" width="32">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="2" loop="false" name="green" numframes="1" originx="16" originy="16" width="32">
+        <anim across="4" atlasID="-1" down="1" durations="80,80,80,80" height="32" id="2" loop="true" name="green" numframes="4" originx="16" originy="16" width="128">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="green" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <sprite atlasID="0" default="0" desc="" height="32" id="3" name="Germ" shared="false" width="32">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="false" name="red" numframes="1" originx="16" originy="16" width="32">
+        <anim across="6" atlasID="-1" down="1" durations="80,80,80,80,80,80" height="32" id="0" loop="true" name="red" numframes="6" originx="16" originy="16" width="192">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="red" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="12" fixedrot="true" fric="0.0" gid="4" id="9" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="20.0" name="GreenGerm" oid="-1" pausable="true" rest="0.0" shared="false" sprite="10" static="false" touchable="true">
         <snippets/>
     </actor>
+    <music desc="" id="28" loop="true" name="Hmpf" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="20" loop="true" name="InGame 1" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <music desc="" id="19" loop="true" name="InGame 2" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="29" name="Mouth" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
+    <music desc="" id="27" loop="true" name="Nooo" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="18" loop="true" name="Opening" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="21" fixedrot="true" fric="0.2" gid="3" id="30" ignoreg="true" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Press Enter" oid="-1" pausable="true" rest="0.0" shared="false" sprite="31" static="true" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="105" id="31" name="Press Enter" shared="false" width="148">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="105" id="0" loop="false" name="main" numframes="1" originx="74" originy="52" width="148">
+            <poly data="4,0,0,148,0,148,105,0,105" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.0" gid="4" id="2" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="20.0" name="RedGerm" oid="-1" pausable="true" rest="0.0" shared="false" sprite="3" static="false" touchable="true">
         <snippets/>
     </actor>
     <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="44" id="4" name="Sansation" offsets="0|0|0|,5|0|5,8|0|8,14|0|14,24|0|24,32|0|32,43|0|43,54|0|54,57|0|57,61|0|61,66|0|66,73|0|73,83|0|83,86|0|86,94|0|94,97|0|97,103|0|103,112|0|112,119|0|119,127|0|127,135|0|135,144|0|144,151|0|151,159|0|159,168|0|168,177|0|177,186|0|186,189|0|189,192|0|192,201|0|201,211|0|211,221|0|221,228|0|228,242|0|242,253|0|253,261|0|261,272|0|272,283|0|283,291|0|291,298|0|298,309|0|309,319|0|319,322|0|322,328|0|328,337|0|337,345|0|345,357|0|357,367|0|367,379|0|379,387|0|387,400|0|400,409|0|409,417|0|417,427|0|427,436|0|436,447|0|447,461|0|461,471|0|471,481|0|481,490|0|490,494|0|494,500|0|500,504|0|504,514|0|514,522|0|522,526|0|526,535|0|535,544|0|544,552|0|552,561|0|561,569|0|569,576|0|576,585|0|585,593|0|593,596|0|596,602|0|602,610|0|610,613|0|613,626|0|626,634|0|634,643|0|643,652|0|652,661|0|661,667|0|667,673|0|673,679|0|679,687|0|687,696|0|696,709|0|709,719|0|719,728|0|728,736|0|736,741|0|741,743|0|743,747|0|747,757|0|757,763|0|763,779|0|779,795|0|795,811|0|811,827|0|827,843|0|843,859|0|859,875|0|875,891|0|891,907|0|907,923|0|923,939|0|939,955|0|955,971|0|971,987|0|987,1003|0|1003,1019|0|1019,1035|0|1035,1051|0|1051,1067|0|1067,1083|0|1083,1099|0|1099,1115|0|1115,1131|0|1131,1147|0|1147,1163|0|1163,1179|0|1179,1195|0|1195,1211|0|1211,1227|0|1227,1243|0|1243,1259|0|1259,1275|0|1275,1280|0|1280,1283|0|1283,1291|0|1291,1299|0|1299,1309|0|1309,1319|0|1319,1321|0|1321,1329|0|1329,1335|0|1335,1348|0|1348,1354|0|1354,1361|0|1361,1371|0|1371,1379|0|1379,1392|0|1392,1400|0|1400,1405|0|1405,1415|0|1415,1420|0|1420,1425|0|1425,1429|0|1429,1437|0|1437,1444|0|1444,1447|0|1447,1450|0|1450,1455|0|1455,1461|0|1461,1469|0|1469,1481|0|1481,1493|0|1493,1505|0|1505,1512|0|1512,1523|0|1523,1534|0|1534,1545|0|1545,1556|0|1556,1567|0|1567,1578|0|1578,1593|0|1593,1604|0|1604,1612|0|1612,1620|0|1620,1628|0|1628,1636|0|1636,1640|0|1640,1644|0|1644,1651|0|1651,1656|0|1656,1669|0|1669,1679|0|1679,1691|0|1691,1703|0|1703,1715|0|1715,1727|0|1727,1739|0|1739,1749|0|1749,1761|0|1761,1770|0|1770,1779|0|1779,1788|0|1788,1797|0|1797,1807|0|1807,1815|0|1815,1824|0|1824,1833|0|1833,1842|0|1842,1851|0|1851,1860|0|1860,1869|0|1869,1878|0|1878,1891|0|1891,1899|0|1899,1907|0|1907,1915|0|1915,1923|0|1923,1931|0|1931,1935|0|1935,1939|0|1939,1946|0|1946,1951|0|1951,1960|0|1960,1968|0|1968,1977|0|1977,1986|0|1986,1995|0|1995,2004|0|2004,2013|0|2013,2023|0|2023,2032|0|2032,2040|0|2040,2048|0|2048,2056|0|2056,2064|0|2064,2073|0|2073,2082|0|2082,2091|0|2091,2102|0|2102,2111|0|2111,2122|0|2122,2131|0|2131,2142|0|2142,2151|0|2151,2162|0|2162,2170|0|2170,2181|0|2181,2189|0|2189,2200|0|2200,2208|0|2208,2219|0|2219,2227|0|2227,2238|0|2238,2250|0|2250,2263|0|2263,2273|0|2273,2281|0|2281,2289|0|2289,2297|0|2297,2305|0|2305,2313|0|2313,2321|0|2321,2329|0|2329,2337|0|2337,2345|0|2345,2353|0|2353,2364|0|2364,2373|0|2373,2384|0|2384,2393|0|2393,2404|0|2404,2413|0|2413,2424|0|2424,2433|0|2433,2443|0|2443,2451|0|2451,2464|0|2464,2473|0|2473,2479|0|2479,2485|0|2485,2491|0|2491,2497|0|2497,2503|0|2503,2509|0|2509,2512|0|2512,2515|0|2515,2518|0|2518,2521|0|2521,2529|0|2529,2536|0|2536,2544|0|2544,2552|0|2552,2561|0|2561,2569|0|2569,2577|0|2577,2585|0|2585,2589|0|2589,2597|0|2597,2600|0|2600,2608|0|2608,2613|0|2613,2621|0|2621,2627|0|2627,2636|0|2636,2642|0|2642,2652|0|2652,2660|0|2660,2670|0|2670,2678|0|2678,2688|0|2688,2696|0|2696,2706|0|2706,2716|0|2716,2724|0|2724,2736|0|2736,2745|0|2745,2757|0|2757,2766|0|2766,2778|0|2778,2788|0|2788,2804|0|2804,2818|0|2818,2827|0|2827,2833|0|2833,2842|0|2842,2848|0|2848,2857|0|2857,2863|0|2863,2871|0|2871,0|22|2877,8|22|2885,14|22|2891,22|22|2899,28|22|2905,36|22|2913,42|22|2919,52|22|2929,58|22|2935,68|22|2945,74|22|2951,84|22|2961,90|22|2967,99|22|2976,107|22|2984,116|22|2993,124|22|3001,133|22|3010,141|22|3018,150|22|3027,158|22|3035,167|22|3044,176|22|3053,185|22|3062,193|22|3070,207|22|3084,220|22|3097,230|22|3107,239|22|3116,249|22|3126,258|22|3135,266|22|3143,275|22|3152,283|22|3160,292|22|3169,300|22|3177" oid="-1" rowHeight="22" shared="false"/>
+    <music desc="" id="23" loop="true" name="Start" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <sprite atlasID="0" default="0" desc="" height="32" id="8" name="Wall" shared="false" width="32">
         <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="false" name="Animation 0" numframes="1" originx="16" originy="16" width="32">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="5" id="0" name="Animation 0" rest="0.0" sensor="false"/>
@@ -67,4 +93,5 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="10" fixedrot="false" fric="0.2" gid="3" id="7" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Wall" oid="-1" pausable="true" rest="0.0" shared="false" sprite="8" static="true" touchable="true">
         <snippets/>
     </actor>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="21" name="Welcome" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
 </pack>

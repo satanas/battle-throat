@@ -4,20 +4,22 @@
         <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
     </layers>
     <color-bg blue="153" green="255" red="255"/>
-    <backgrounds/>
+    <backgrounds>
+        <ref id="29"/>
+    </backgrounds>
     <foregrounds/>
     <joints/>
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="3" c="false" group="4" id="2" name="Germ 3" sx="1.0" sy="1.0" x="256" y="32" z="0"/>
-        <actor a="0.0" aid="4" c="false" group="4" id="2" name="Germ 4" sx="1.0" sy="1.0" x="448" y="32" z="0"/>
-        <actor a="0.0" aid="5" c="false" group="4" id="2" name="Germ 5" sx="1.0" sy="1.0" x="320" y="32" z="0"/>
-        <actor a="0.0" aid="8" c="false" group="4" id="2" name="Germ 8" sx="1.0" sy="1.0" x="128" y="32" z="0"/>
-        <actor a="0.0" aid="18" c="false" group="4" id="2" name="Germ 18" sx="1.0" sy="1.0" x="352" y="64" z="0"/>
-        <actor a="0.0" aid="21" c="false" group="4" id="2" name="Germ 21" sx="1.0" sy="1.0" x="224" y="64" z="0"/>
-        <actor a="0.0" aid="20" c="false" group="4" id="2" name="Germ 20" sx="1.0" sy="1.0" x="416" y="64" z="0"/>
-        <actor a="0.0" aid="22" c="false" group="4" id="2" name="Germ 22" sx="1.0" sy="1.0" x="160" y="64" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="4" id="2" name="Germ 3" sx="1.0" sy="1.0" x="256" y="96" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="4" id="2" name="Germ 4" sx="1.0" sy="1.0" x="448" y="96" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="2" name="Germ 5" sx="1.0" sy="1.0" x="320" y="96" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="4" id="2" name="Germ 8" sx="1.0" sy="1.0" x="128" y="96" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="4" id="2" name="Germ 18" sx="1.0" sy="1.0" x="352" y="128" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="4" id="2" name="Germ 21" sx="1.0" sy="1.0" x="224" y="128" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="4" id="2" name="Germ 20" sx="1.0" sy="1.0" x="416" y="128" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="4" id="2" name="Germ 22" sx="1.0" sy="1.0" x="160" y="128" z="0"/>
         <actor a="0.0" aid="31" c="false" group="3" id="7" name="Wall 31" sx="1.0" sy="1.0" x="95" y="0" z="0"/>
         <actor a="0.0" aid="34" c="false" group="3" id="7" name="Wall 34" sx="1.0" sy="1.0" x="96" y="96" z="0"/>
         <actor a="0.0" aid="35" c="false" group="3" id="7" name="Wall 35" sx="1.0" sy="1.0" x="96" y="128" z="0"/>
@@ -46,29 +48,42 @@
         <actor a="0.0" aid="58" c="false" group="3" id="7" name="Wall 58" sx="1.0" sy="1.0" x="480" y="352" z="0"/>
         <actor a="0.0" aid="57" c="false" group="3" id="7" name="Wall 57" sx="1.0" sy="1.0" x="480" y="320" z="0"/>
         <actor a="0.0" aid="56" c="false" group="3" id="7" name="Wall 56" sx="1.0" sy="1.0" x="480" y="288" z="0"/>
-        <actor a="0.0" aid="63" c="false" group="4" id="9" name="GreenGerm 63" sx="1.0" sy="1.0" x="192" y="32" z="0"/>
-        <actor a="0.0" aid="62" c="false" group="4" id="9" name="GreenGerm 62" sx="1.0" sy="1.0" x="160" y="0" z="0"/>
+        <actor a="0.0" aid="63" c="false" group="4" id="9" name="GreenGerm 63" sx="1.0" sy="1.0" x="192" y="96" z="0"/>
+        <actor a="0.0" aid="62" c="false" group="4" id="9" name="GreenGerm 62" sx="1.0" sy="1.0" x="160" y="64" z="0"/>
         <actor a="0.0" aid="61" c="false" group="3" id="7" name="Wall 61" sx="1.0" sy="1.0" x="480" y="448" z="0"/>
         <actor a="0.0" aid="60" c="false" group="3" id="7" name="Wall 60" sx="1.0" sy="1.0" x="480" y="416" z="0"/>
-        <actor a="0.0" aid="68" c="false" group="4" id="11" name="BlueGerm 68" sx="1.0" sy="1.0" x="128" y="96" z="0"/>
-        <actor a="0.0" aid="69" c="false" group="4" id="11" name="BlueGerm 69" sx="1.0" sy="1.0" x="288" y="0" z="0"/>
-        <actor a="0.0" aid="71" c="false" group="4" id="9" name="GreenGerm 71" sx="1.0" sy="1.0" x="320" y="96" z="0"/>
-        <actor a="0.0" aid="64" c="false" group="4" id="9" name="GreenGerm 64" sx="1.0" sy="1.0" x="352" y="0" z="0"/>
-        <actor a="0.0" aid="65" c="false" group="4" id="11" name="BlueGerm 65" sx="1.0" sy="1.0" x="192" y="96" z="0"/>
-        <actor a="0.0" aid="66" c="false" group="4" id="11" name="BlueGerm 66" sx="1.0" sy="1.0" x="384" y="96" z="0"/>
-        <actor a="0.0" aid="67" c="false" group="4" id="11" name="BlueGerm 67" sx="1.0" sy="1.0" x="448" y="96" z="0"/>
-        <actor a="0.0" aid="76" c="false" group="3" id="0" name="Blood cell 76" sx="1.0" sy="1.0" x="288" y="416" z="0"/>
-        <actor a="0.0" aid="78" c="false" group="4" id="11" name="BlueGerm 78" sx="1.0" sy="1.0" x="288" y="64" z="0"/>
-        <actor a="0.0" aid="72" c="false" group="4" id="9" name="GreenGerm 72" sx="1.0" sy="1.0" x="256" y="96" z="0"/>
-        <actor a="0.0" aid="73" c="false" group="4" id="9" name="GreenGerm 73" sx="1.0" sy="1.0" x="416" y="0" z="0"/>
-        <actor a="0.0" aid="74" c="false" group="4" id="9" name="GreenGerm 74" sx="1.0" sy="1.0" x="384" y="32" z="0"/>
-        <actor a="0.0" aid="75" c="false" group="4" id="9" name="GreenGerm 75" sx="1.0" sy="1.0" x="224" y="0" z="0"/>
+        <actor a="0.0" aid="68" c="false" group="4" id="11" name="BlueGerm 68" sx="1.0" sy="1.0" x="128" y="160" z="0"/>
+        <actor a="0.0" aid="69" c="false" group="4" id="11" name="BlueGerm 69" sx="1.0" sy="1.0" x="288" y="64" z="0"/>
+        <actor a="0.0" aid="71" c="false" group="4" id="9" name="GreenGerm 71" sx="1.0" sy="1.0" x="320" y="160" z="0"/>
+        <actor a="0.0" aid="64" c="false" group="4" id="9" name="GreenGerm 64" sx="1.0" sy="1.0" x="352" y="64" z="0"/>
+        <actor a="0.0" aid="65" c="false" group="4" id="11" name="BlueGerm 65" sx="1.0" sy="1.0" x="192" y="160" z="0"/>
+        <actor a="0.0" aid="66" c="false" group="4" id="11" name="BlueGerm 66" sx="1.0" sy="1.0" x="384" y="160" z="0"/>
+        <actor a="0.0" aid="67" c="false" group="4" id="11" name="BlueGerm 67" sx="1.0" sy="1.0" x="448" y="160" z="0"/>
+        <actor a="0.0" aid="78" c="false" group="4" id="11" name="BlueGerm 78" sx="1.0" sy="1.0" x="288" y="128" z="0"/>
+        <actor a="0.0" aid="79" c="false" group="1" id="32" name="Cannon 79" sx="1.0" sy="1.0" x="259" y="432" z="0"/>
+        <actor a="0.0" aid="72" c="false" group="4" id="9" name="GreenGerm 72" sx="1.0" sy="1.0" x="256" y="160" z="0"/>
+        <actor a="0.0" aid="73" c="false" group="4" id="9" name="GreenGerm 73" sx="1.0" sy="1.0" x="416" y="64" z="0"/>
+        <actor a="0.0" aid="74" c="false" group="4" id="9" name="GreenGerm 74" sx="1.0" sy="1.0" x="384" y="96" z="0"/>
+        <actor a="0.0" aid="75" c="false" group="4" id="9" name="GreenGerm 75" sx="1.0" sy="1.0" x="224" y="64" z="0"/>
+        <actor a="0.0" aid="80" c="false" group="3" id="0" name="Blood cell 80" sx="1.0" sy="1.0" x="288" y="448" z="0"/>
     </actors>
     <snippets>
+        <s enabled="true" id="18">
+            <prop id="1" list="0" val="0"/>
+            <prop id="2" list="0" val="0"/>
+        </s>
+        <s enabled="true" id="20">
+            <prop id="1" list="0" val="0"/>
+        </s>
         <s enabled="true" id="8">
             <prop id="1" list="0" val="0.0"/>
         </s>
-        <s enabled="true" id="9"/>
+        <s enabled="true" id="9">
+            <prop id="1" list="0" val="0"/>
+            <prop id="2" list="0" val="0"/>
+            <prop id="3" list="0" val=""/>
+            <prop id="4" list="0" val="0"/>
+        </s>
         <s enabled="true" id="15">
             <prop id="1" list="0" val="0"/>
             <prop id="2" list="0" val="0"/>

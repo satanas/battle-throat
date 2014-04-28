@@ -3,28 +3,31 @@
     <group eventID="1" id="0">
         <draw comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <draw-text comment="false" x="26" y="40">
+                <set-font-color comment="false" x="26" y="40">
+                    <color b="255" g="255" id="0" r="255"/>
+                </set-font-color>
+                <draw-text comment="false" x="26" y="67">
                     <int id="0" val="Score"/>
                     <int id="1" val="10"/>
                     <int id="2" val="10"/>
                 </draw-text>
-                <draw-text comment="false" x="26" y="60">
+                <draw-text comment="false" x="26" y="87">
                     <get-game-val-3 comment="false" id="0" x="0" y="0"/>
                     <int id="1" val="10"/>
-                    <int id="2" val="20"/>
+                    <int id="2" val="30"/>
                 </draw-text>
-                <draw-text comment="false" x="26" y="85">
-                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                <draw-text comment="true" x="26" y="112">
+                    <get-game-val-0 comment="true" id="0" x="0" y="0"/>
                     <int id="1" val="600"/>
                     <int id="2" val="10"/>
                 </draw-text>
-                <set-stroke-color comment="false" x="26" y="110">
+                <set-stroke-color comment="false" x="26" y="137">
                     <color b="0" g="0" id="0" r="0"/>
                 </set-stroke-color>
-                <set-thickness comment="false" x="26" y="137">
+                <set-thickness comment="false" x="26" y="164">
                     <int id="0" val="5"/>
                 </set-thickness>
-                <set-val-15-1 comment="false" x="26" y="157">
+                <set-val-15-1 comment="false" x="26" y="184">
                     <plus comment="false" id="0" x="0" y="0">
                         <int id="0" val="304"/>
                         <roundnew comment="false" id="1" x="0" y="0">
@@ -37,14 +40,14 @@
                                         <get-game-val-0 comment="false" id="1" x="0" y="0"/>
                                     </to-degreesradians>
                                 </trig-master>
-                                <int id="1" val="15"/>
+                                <int id="1" val="25"/>
                             </times>
                         </roundnew>
                     </plus>
                 </set-val-15-1>
-                <set-val-15-2 comment="false" x="26" y="231">
-                    <plus comment="false" id="0" x="0" y="0">
-                        <int id="0" val="416"/>
+                <set-val-15-2 comment="false" x="26" y="258">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <int id="0" val="448"/>
                         <roundnew comment="false" id="1" x="0" y="0">
                             <int id="0" val="0"/>
                             <times comment="false" id="1" x="0" y="0">
@@ -52,29 +55,52 @@
                                     <int id="0" val="0"/>
                                     <to-degreesradians comment="false" id="1" x="0" y="0">
                                         <int id="0" val="1"/>
-                                        <get-game-val-0 comment="false" id="1" x="0" y="0"/>
+                                        <neg comment="false" id="1" x="0" y="0">
+                                            <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                        </neg>
                                     </to-degreesradians>
                                 </trig-master>
-                                <int id="1" val="15"/>
+                                <int id="1" val="25"/>
                             </times>
                         </roundnew>
-                    </plus>
+                    </minus>
                 </set-val-15-2>
-                <draw-line comment="false" x="26" y="305">
-                    <get-val-15-1 comment="false" id="0" x="0" y="0"/>
-                    <get-val-15-2 comment="false" id="1" x="0" y="0"/>
-                    <int id="2" val="304"/>
-                    <int id="3" val="416"/>
+                <draw-line comment="false" x="26" y="337">
+                    <int id="0" val="304"/>
+                    <int id="1" val="448"/>
+                    <get-val-15-1 comment="false" id="2" x="0" y="0"/>
+                    <get-val-15-2 comment="false" id="3" x="0" y="0"/>
                 </draw-line>
-                <draw-text comment="true" x="26" y="330">
-                    <get-val-15-1 comment="true" id="0" x="0" y="0"/>
-                    <int id="1" val="20"/>
-                    <int id="2" val="20"/>
+                <draw-text comment="false" x="26" y="362">
+                    <get-val-15-1 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="600"/>
+                    <int id="2" val="30"/>
                 </draw-text>
-                <draw-text comment="true" x="26" y="355">
-                    <get-val-15-2 comment="true" id="0" x="0" y="0"/>
-                    <int id="1" val="20"/>
-                    <int id="2" val="35"/>
+                <draw-text comment="false" x="26" y="387">
+                    <get-val-15-2 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="600"/>
+                    <int id="2" val="45"/>
+                </draw-text>
+                <draw-text comment="true" x="26" y="412">
+                    <tostring comment="true" id="0" x="0" y="0">
+                        <get-game-val-5 comment="true" id="0" x="0" y="0"/>
+                    </tostring>
+                    <int id="1" val="10"/>
+                    <int id="2" val="60"/>
+                </draw-text>
+                <draw-text comment="true" x="26" y="442">
+                    <tostring comment="true" id="0" x="0" y="0">
+                        <get-game-val-1 comment="true" id="0" x="0" y="0"/>
+                    </tostring>
+                    <int id="1" val="10"/>
+                    <int id="2" val="80"/>
+                </draw-text>
+                <draw-text comment="true" x="26" y="472">
+                    <tostring comment="true" id="0" x="0" y="0">
+                        <get-game-val-2 comment="true" id="0" x="0" y="0"/>
+                    </tostring>
+                    <int id="1" val="10"/>
+                    <int id="2" val="100"/>
                 </draw-text>
             </group>
         </draw>
@@ -83,10 +109,7 @@
     <group eventID="2" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <set-game-val-3 comment="false" x="26" y="40">
-                    <int id="0" val="0"/>
-                </set-game-val-3>
-                <set-game-val-0 comment="false" x="26" y="60">
+                <set-game-val-0 comment="false" x="26" y="40">
                     <int id="0" val="-90"/>
                 </set-game-val-0>
             </group>

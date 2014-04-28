@@ -3,12 +3,16 @@
     <group eventID="1" id="0">
         <event-collide-actortogroup comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <set-dxy comment="false" x="26" y="47">
-                    <first-actor comment="false" id="0" x="0" y="0"/>
+                <rotate comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="90"/>
+                </rotate>
+                <set-dxy comment="true" x="26" y="74">
+                    <first-actor comment="true" id="0" x="0" y="0"/>
                     <int id="1" val="0"/>
-                    <neg comment="false" id="2" x="0" y="0">
-                        <get-dxy comment="false" id="0" x="0" y="0">
-                            <first-actor comment="false" id="0" x="0" y="0"/>
+                    <neg comment="true" id="2" x="0" y="0">
+                        <get-dxy comment="true" id="0" x="0" y="0">
+                            <first-actor comment="true" id="0" x="0" y="0"/>
                             <int id="1" val="0"/>
                         </get-dxy>
                     </neg>
@@ -32,4 +36,32 @@
         </event-actor-screen>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <set-dxy comment="false" x="37" y="78">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <neg comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-dxy>
+                            </neg>
+                        </set-dxy>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <int id="1" val="32"/>
+                    </lesseq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>

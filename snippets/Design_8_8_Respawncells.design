@@ -3,26 +3,42 @@
     <group eventID="1" id="0">
         <event-group-create-kill comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <dolater comment="false" x="26" y="47">
+                <set-game-val-0 comment="false" x="26" y="47">
+                    <int id="0" val="-90"/>
+                </set-game-val-0>
+                <if comment="false" x="26" y="67">
                     <group eventID="1" id="-1">
-                        <if comment="false" x="37" y="74">
+                        <dolater comment="false" x="37" y="92">
                             <group eventID="1" id="-1">
-                                <create-actor3 comment="false" x="48" y="99">
+                                <create-actor3 comment="false" x="48" y="119">
                                     <ACTORTYPE eid="0" id="0"/>
                                     <int id="1" val="288"/>
-                                    <int id="2" val="416"/>
+                                    <int id="2" val="448"/>
                                     <int id="3" val="0"/>
                                 </create-actor3>
-                                <set-game-val-0 comment="false" x="48" y="126">
-                                    <int id="0" val="-90"/>
-                                </set-game-val-0>
                             </group>
-                            <get-game-val-1 comment="false" id="0" x="0" y="0"/>
-                        </if>
+                            <int id="0" val="2"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
                     </group>
-                    <int id="0" val="2"/>
-                    <ACTOR eid="lastcreated" id="2"/>
-                </dolater>
+                    <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="170">
+                    <group eventID="1" id="-1">
+                        <dolater comment="false" x="37" y="190">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="48" y="217">
+                                    <ACTORTYPE eid="0" id="0"/>
+                                    <int id="1" val="288"/>
+                                    <int id="2" val="448"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                            </group>
+                            <int id="0" val="0.8"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                </else>
             </group>
             <int id="0" val="1"/>
             <GROUP eid="3" id="1"/>
