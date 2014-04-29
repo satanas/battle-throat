@@ -17,7 +17,7 @@
                                     <int id="3" val="0"/>
                                 </create-actor3>
                             </group>
-                            <int id="0" val="2"/>
+                            <int id="0" val="1.2"/>
                             <ACTOR eid="lastcreated" id="2"/>
                         </dolater>
                     </group>

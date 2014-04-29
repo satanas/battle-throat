@@ -8,7 +8,7 @@
                     <int id="1" val="0"/>
                     <int id="2" val="2"/>
                     <int id="3" val="0"/>
-                    <int id="4" val="2"/>
+                    <int id="4" val="0"/>
                 </scene-change-new>
                 <play-sound4 comment="false" x="26" y="69">
                     <int id="0" val="0"/>
@@ -23,7 +23,8 @@
     <group eventID="2" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <play-sound4 comment="false" x="26" y="40">
+                <stop-sounds comment="false" x="26" y="40"/>
+                <play-sound4 comment="false" x="26" y="60">
                     <int id="0" val="1"/>
                     <SOUND eid="18" id="1"/>
                 </play-sound4>

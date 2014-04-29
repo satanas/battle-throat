@@ -71,13 +71,13 @@
                     <get-val-15-1 comment="false" id="2" x="0" y="0"/>
                     <get-val-15-2 comment="false" id="3" x="0" y="0"/>
                 </draw-line>
-                <draw-text comment="false" x="26" y="362">
-                    <get-val-15-1 comment="false" id="0" x="0" y="0"/>
+                <draw-text comment="true" x="26" y="362">
+                    <get-val-15-1 comment="true" id="0" x="0" y="0"/>
                     <int id="1" val="600"/>
                     <int id="2" val="30"/>
                 </draw-text>
-                <draw-text comment="false" x="26" y="387">
-                    <get-val-15-2 comment="false" id="0" x="0" y="0"/>
+                <draw-text comment="true" x="26" y="387">
+                    <get-val-15-2 comment="true" id="0" x="0" y="0"/>
                     <int id="1" val="600"/>
                     <int id="2" val="45"/>
                 </draw-text>

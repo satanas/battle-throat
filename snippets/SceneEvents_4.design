@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <FONT eid="34" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="Game Over"/>
+                    <int id="1" val="150"/>
+                    <int id="2" val="200"/>
+                </draw-text>
+                <set-font-new comment="false" x="26" y="87">
+                    <FONT eid="35" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="114">
+                    <int id="0" val="Press Enter to try again"/>
+                    <int id="1" val="240"/>
+                    <int id="2" val="400"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <scene-change-through comment="false" x="26" y="42">
+                    <SCENE eid="2" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </scene-change-through>
+            </group>
+            <CONTROL eid="6" id="0"/>
+            <int id="1" val="1"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>
