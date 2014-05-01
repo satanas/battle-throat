@@ -8,26 +8,48 @@
                 </set-font-color>
                 <draw-text comment="false" x="26" y="67">
                     <int id="0" val="Score"/>
-                    <int id="1" val="10"/>
+                    <int id="1" val="20"/>
                     <int id="2" val="10"/>
                 </draw-text>
                 <draw-text comment="false" x="26" y="87">
                     <get-game-val-3 comment="false" id="0" x="0" y="0"/>
-                    <int id="1" val="10"/>
+                    <int id="1" val="20"/>
                     <int id="2" val="30"/>
                 </draw-text>
-                <draw-text comment="true" x="26" y="112">
+                <draw-text comment="false" x="26" y="112">
+                    <int id="0" val="Level"/>
+                    <int id="1" val="20"/>
+                    <int id="2" val="75"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="132">
+                    <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="70"/>
+                    <int id="2" val="75"/>
+                </draw-text>
+                <set-stroke-color comment="false" x="26" y="157">
+                    <color b="204" g="204" id="0" r="204"/>
+                </set-stroke-color>
+                <set-thickness comment="false" x="26" y="184">
+                    <int id="0" val="1"/>
+                </set-thickness>
+                <draw-line comment="false" x="26" y="204">
+                    <int id="0" val="120"/>
+                    <get-game-val-9 comment="false" id="1" x="0" y="0"/>
+                    <int id="2" val="485"/>
+                    <get-game-val-9 comment="false" id="3" x="0" y="0"/>
+                </draw-line>
+                <draw-text comment="true" x="26" y="229">
                     <get-game-val-0 comment="true" id="0" x="0" y="0"/>
                     <int id="1" val="600"/>
                     <int id="2" val="10"/>
                 </draw-text>
-                <set-stroke-color comment="false" x="26" y="137">
+                <set-stroke-color comment="false" x="26" y="254">
                     <color b="0" g="0" id="0" r="0"/>
                 </set-stroke-color>
-                <set-thickness comment="false" x="26" y="164">
+                <set-thickness comment="false" x="26" y="281">
                     <int id="0" val="5"/>
                 </set-thickness>
-                <set-val-15-1 comment="false" x="26" y="184">
+                <set-val-15-1 comment="false" x="26" y="301">
                     <plus comment="false" id="0" x="0" y="0">
                         <int id="0" val="304"/>
                         <roundnew comment="false" id="1" x="0" y="0">
@@ -45,7 +67,7 @@
                         </roundnew>
                     </plus>
                 </set-val-15-1>
-                <set-val-15-2 comment="false" x="26" y="258">
+                <set-val-15-2 comment="false" x="26" y="375">
                     <minus comment="false" id="0" x="0" y="0">
                         <int id="0" val="448"/>
                         <roundnew comment="false" id="1" x="0" y="0">
@@ -65,37 +87,37 @@
                         </roundnew>
                     </minus>
                 </set-val-15-2>
-                <draw-line comment="false" x="26" y="337">
+                <draw-line comment="false" x="26" y="454">
                     <int id="0" val="304"/>
                     <int id="1" val="448"/>
                     <get-val-15-1 comment="false" id="2" x="0" y="0"/>
                     <get-val-15-2 comment="false" id="3" x="0" y="0"/>
                 </draw-line>
-                <draw-text comment="true" x="26" y="362">
+                <draw-text comment="true" x="26" y="479">
                     <get-val-15-1 comment="true" id="0" x="0" y="0"/>
                     <int id="1" val="600"/>
                     <int id="2" val="30"/>
                 </draw-text>
-                <draw-text comment="true" x="26" y="387">
+                <draw-text comment="true" x="26" y="504">
                     <get-val-15-2 comment="true" id="0" x="0" y="0"/>
                     <int id="1" val="600"/>
                     <int id="2" val="45"/>
                 </draw-text>
-                <draw-text comment="true" x="26" y="412">
+                <draw-text comment="true" x="26" y="529">
                     <tostring comment="true" id="0" x="0" y="0">
                         <get-game-val-5 comment="true" id="0" x="0" y="0"/>
                     </tostring>
                     <int id="1" val="10"/>
                     <int id="2" val="60"/>
                 </draw-text>
-                <draw-text comment="true" x="26" y="442">
+                <draw-text comment="true" x="26" y="559">
                     <tostring comment="true" id="0" x="0" y="0">
                         <get-game-val-1 comment="true" id="0" x="0" y="0"/>
                     </tostring>
                     <int id="1" val="10"/>
                     <int id="2" val="80"/>
                 </draw-text>
-                <draw-text comment="true" x="26" y="472">
+                <draw-text comment="true" x="26" y="589">
                     <tostring comment="true" id="0" x="0" y="0">
                         <get-game-val-2 comment="true" id="0" x="0" y="0"/>
                     </tostring>

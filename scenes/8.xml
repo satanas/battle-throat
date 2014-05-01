@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="29" extheight="544" extwidth="704" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="100.0" height="480" id="8" name="5" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="29"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="1" id="32" name="Cannon 1" sx="1.0" sy="1.0" x="262" y="432" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="0" name="Blood cell 2" sx="1.0" sy="1.0" x="288" y="448" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="9" name="GreenGerm 5" sx="1.0" sy="1.0" x="352" y="64" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="4" id="9" name="GreenGerm 6" sx="1.0" sy="1.0" x="416" y="64" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="2" name="RedGerm 7" sx="1.0" sy="1.0" x="192" y="96" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="4" id="11" name="BlueGerm 10" sx="1.0" sy="1.0" x="416" y="192" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="4" id="2" name="RedGerm 11" sx="1.0" sy="1.0" x="192" y="160" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="4" id="11" name="BlueGerm 15" sx="1.0" sy="1.0" x="192" y="224" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="4" id="2" name="RedGerm 17" sx="1.0" sy="1.0" x="160" y="128" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="4" id="11" name="BlueGerm 16" sx="1.0" sy="1.0" x="384" y="224" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="4" id="2" name="RedGerm 19" sx="1.0" sy="1.0" x="160" y="64" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="4" id="2" name="RedGerm 18" sx="1.0" sy="1.0" x="224" y="64" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="4" id="11" name="BlueGerm 21" sx="1.0" sy="1.0" x="224" y="192" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="4" id="11" name="BlueGerm 20" sx="1.0" sy="1.0" x="160" y="192" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="4" id="9" name="GreenGerm 23" sx="1.0" sy="1.0" x="384" y="96" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="4" id="11" name="BlueGerm 22" sx="1.0" sy="1.0" x="352" y="192" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="4" id="9" name="GreenGerm 25" sx="1.0" sy="1.0" x="384" y="160" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="4" id="9" name="GreenGerm 24" sx="1.0" sy="1.0" x="416" y="128" z="0"/>
+        <actor a="0.0" aid="27" c="false" group="5" id="7" name="Wall 27" sx="1.0" sy="1.0" x="96" y="32" z="0"/>
+        <actor a="0.0" aid="26" c="false" group="5" id="7" name="Wall 26" sx="1.0" sy="1.0" x="96" y="0" z="0"/>
+        <actor a="0.0" aid="29" c="false" group="5" id="7" name="Wall 29" sx="1.0" sy="1.0" x="96" y="96" z="0"/>
+        <actor a="0.0" aid="28" c="false" group="5" id="7" name="Wall 28" sx="1.0" sy="1.0" x="96" y="64" z="0"/>
+        <actor a="0.0" aid="31" c="false" group="5" id="7" name="Wall 31" sx="1.0" sy="1.0" x="96" y="160" z="0"/>
+        <actor a="0.0" aid="30" c="false" group="5" id="7" name="Wall 30" sx="1.0" sy="1.0" x="96" y="128" z="0"/>
+        <actor a="0.0" aid="34" c="false" group="5" id="7" name="Wall 34" sx="1.0" sy="1.0" x="96" y="256" z="0"/>
+        <actor a="0.0" aid="35" c="false" group="5" id="7" name="Wall 35" sx="1.0" sy="1.0" x="96" y="288" z="0"/>
+        <actor a="0.0" aid="32" c="false" group="5" id="7" name="Wall 32" sx="1.0" sy="1.0" x="96" y="192" z="0"/>
+        <actor a="0.0" aid="33" c="false" group="5" id="7" name="Wall 33" sx="1.0" sy="1.0" x="96" y="224" z="0"/>
+        <actor a="0.0" aid="38" c="false" group="5" id="7" name="Wall 38" sx="1.0" sy="1.0" x="96" y="384" z="0"/>
+        <actor a="0.0" aid="39" c="false" group="5" id="7" name="Wall 39" sx="1.0" sy="1.0" x="96" y="416" z="0"/>
+        <actor a="0.0" aid="36" c="false" group="5" id="7" name="Wall 36" sx="1.0" sy="1.0" x="96" y="320" z="0"/>
+        <actor a="0.0" aid="37" c="false" group="5" id="7" name="Wall 37" sx="1.0" sy="1.0" x="96" y="352" z="0"/>
+        <actor a="0.0" aid="42" c="false" group="5" id="7" name="Wall 42" sx="1.0" sy="1.0" x="480" y="416" z="0"/>
+        <actor a="0.0" aid="43" c="false" group="5" id="7" name="Wall 43" sx="1.0" sy="1.0" x="480" y="384" z="0"/>
+        <actor a="0.0" aid="40" c="false" group="5" id="7" name="Wall 40" sx="1.0" sy="1.0" x="96" y="448" z="0"/>
+        <actor a="0.0" aid="41" c="false" group="5" id="7" name="Wall 41" sx="1.0" sy="1.0" x="480" y="448" z="0"/>
+        <actor a="0.0" aid="46" c="false" group="5" id="7" name="Wall 46" sx="1.0" sy="1.0" x="480" y="288" z="0"/>
+        <actor a="0.0" aid="47" c="false" group="5" id="7" name="Wall 47" sx="1.0" sy="1.0" x="480" y="256" z="0"/>
+        <actor a="0.0" aid="44" c="false" group="5" id="7" name="Wall 44" sx="1.0" sy="1.0" x="480" y="352" z="0"/>
+        <actor a="0.0" aid="45" c="false" group="5" id="7" name="Wall 45" sx="1.0" sy="1.0" x="480" y="320" z="0"/>
+        <actor a="0.0" aid="51" c="false" group="5" id="7" name="Wall 51" sx="1.0" sy="1.0" x="480" y="128" z="0"/>
+        <actor a="0.0" aid="50" c="false" group="5" id="7" name="Wall 50" sx="1.0" sy="1.0" x="480" y="160" z="0"/>
+        <actor a="0.0" aid="49" c="false" group="5" id="7" name="Wall 49" sx="1.0" sy="1.0" x="480" y="192" z="0"/>
+        <actor a="0.0" aid="48" c="false" group="5" id="7" name="Wall 48" sx="1.0" sy="1.0" x="480" y="224" z="0"/>
+        <actor a="0.0" aid="55" c="false" group="5" id="7" name="Wall 55" sx="1.0" sy="1.0" x="480" y="0" z="0"/>
+        <actor a="0.0" aid="54" c="false" group="5" id="7" name="Wall 54" sx="1.0" sy="1.0" x="480" y="32" z="0"/>
+        <actor a="0.0" aid="53" c="false" group="5" id="7" name="Wall 53" sx="1.0" sy="1.0" x="480" y="64" z="0"/>
+        <actor a="0.0" aid="52" c="false" group="5" id="7" name="Wall 52" sx="1.0" sy="1.0" x="480" y="96" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="18">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="0"/>
+        </s>
+        <s enabled="true" id="20">
+            <prop id="1" list="0" val="0"/>
+        </s>
+        <s enabled="true" id="23">
+            <prop id="1" list="0" val="0"/>
+            <prop id="2" list="0" val="0"/>
+        </s>
+        <s enabled="true" id="8">
+            <prop id="1" list="0" val="0.0"/>
+        </s>
+        <s enabled="true" id="9">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="0"/>
+            <prop id="3" list="0" val=""/>
+            <prop id="4" list="0" val="0"/>
+        </s>
+        <s enabled="true" id="15">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="0"/>
+        </s>
+    </snippets>
+    <terrain/>
+</scene>

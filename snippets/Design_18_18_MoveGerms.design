@@ -24,12 +24,29 @@
                                         <int id="1" val="32"/>
                                     </plus>
                                 </set-xy>
+                                <if comment="false" x="48" y="187">
+                                    <group eventID="1" id="-1">
+                                        <set-val-18-3 comment="false" x="59" y="230">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-val-18-3>
+                                    </group>
+                                    <moreeq comment="false" id="0" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <actor-in-group comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                        <minus comment="false" id="1" x="0" y="0">
+                                            <get-game-val-9 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="32"/>
+                                        </minus>
+                                    </moreeq>
+                                </if>
                             </group>
                             <GROUP eid="4" id="0"/>
                         </actors-in-group>
-                        <actors-in-group comment="false" x="37" y="199">
+                        <actors-in-group comment="false" x="37" y="279">
                             <group eventID="1" id="-1">
-                                <set-xy comment="false" x="48" y="231">
+                                <set-xy comment="false" x="48" y="311">
                                     <actor-in-group comment="false" id="0" x="0" y="0"/>
                                     <int id="1" val="1"/>
                                     <plus comment="false" id="2" x="0" y="0">
@@ -43,7 +60,7 @@
                             </group>
                             <GROUP eid="6" id="0"/>
                         </actors-in-group>
-                        <incdec comment="false" x="37" y="293">
+                        <incdec comment="false" x="37" y="373">
                             <int id="0" val="2"/>
                             <int id="1" val="0"/>
                             <int id="2" val="1"/>
@@ -57,18 +74,17 @@
                         <int id="1" val="0"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="332">
+                <if comment="false" x="26" y="412">
                     <group eventID="1" id="-1">
-                        <scene-change-through comment="false" x="37" y="362">
+                        <scene-change-new comment="false" x="37" y="437">
                             <SCENE eid="4" id="0"/>
                             <int id="1" val="0"/>
-                            <int id="2" val="2"/>
-                        </scene-change-through>
+                            <int id="2" val="1"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="1"/>
+                        </scene-change-new>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-val-18-2 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="7"/>
-                    </eq>
+                    <get-val-18-3 comment="false" id="0" x="0" y="0"/>
                 </if>
             </group>
             <int id="0" val="1"/>

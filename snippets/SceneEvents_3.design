@@ -1,40 +1,115 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
-    <group eventID="1" id="0">
-        <draw comment="false" x="15" y="15">
-            <group eventID="1" id="-1">
-                <set-font-new comment="false" x="26" y="40">
-                    <FONT eid="34" id="0"/>
-                </set-font-new>
-                <draw-text comment="false" x="26" y="67">
-                    <int id="0" val="You win!"/>
-                    <int id="1" val="200"/>
-                    <int id="2" val="200"/>
-                </draw-text>
-                <set-font-new comment="false" x="26" y="87">
-                    <FONT eid="35" id="0"/>
-                </set-font-new>
-                <draw-text comment="false" x="26" y="114">
-                    <int id="0" val="Press Enter to try again"/>
-                    <int id="1" val="240"/>
-                    <int id="2" val="400"/>
-                </draw-text>
-            </group>
-        </draw>
-    </group>
-    <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
         <event-key-press-release comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <scene-change-through comment="false" x="26" y="42">
-                    <SCENE eid="2" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="0"/>
-                </scene-change-through>
+                <if comment="false" x="26" y="42">
+                    <group eventID="1" id="-1">
+                        <scene-change-new comment="false" x="37" y="72">
+                            <SCENE eid="5" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0.5"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0.5"/>
+                        </scene-change-new>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="111">
+                    <group eventID="1" id="-1">
+                        <scene-change-new comment="false" x="37" y="141">
+                            <SCENE eid="6" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0.5"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0.5"/>
+                        </scene-change-new>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="180">
+                    <group eventID="1" id="-1">
+                        <scene-change-new comment="false" x="37" y="210">
+                            <SCENE eid="7" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0.5"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0.5"/>
+                        </scene-change-new>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="4"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="249">
+                    <group eventID="1" id="-1">
+                        <scene-change-new comment="false" x="37" y="279">
+                            <SCENE eid="8" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0.5"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0.5"/>
+                        </scene-change-new>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="5"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="318">
+                    <group eventID="1" id="-1">
+                        <scene-change-new comment="false" x="37" y="348">
+                            <SCENE eid="9" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0.5"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0.5"/>
+                        </scene-change-new>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="6"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="387">
+                    <group eventID="1" id="-1">
+                        <scene-change-through comment="false" x="37" y="417">
+                            <SCENE eid="2" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1"/>
+                        </scene-change-through>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="7"/>
+                    </eq>
+                </else-if>
             </group>
             <CONTROL eid="6" id="0"/>
             <int id="1" val="0"/>
         </event-key-press-release>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <FONT eid="4" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="300"/>
+                    <int id="2" val="10"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>
