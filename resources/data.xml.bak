@@ -45,7 +45,34 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="22" fixedrot="false" fric="0.2" gid="1" id="32" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Cannon" oid="-1" pausable="true" rest="0.0" shared="false" sprite="33" static="true" touchable="true">
         <snippets/>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="34" fixedrot="false" fric="0.2" gid="7" id="41" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Dead BlueGerm" oid="-1" pausable="true" rest="0.0" shared="false" sprite="42" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" desc="" height="32" id="44" name="Dead Germ" shared="false" width="32">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="true" name="main" numframes="1" originx="16" originy="16" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="7" id="0" name="main" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" desc="" height="32" id="40" name="Dead Germ" shared="false" width="32">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="true" name="main" numframes="1" originx="16" originy="16" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="7" id="0" name="main" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" desc="" height="32" id="42" name="Dead Germ" shared="false" width="32">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="true" name="main" numframes="1" originx="16" originy="16" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="7" id="0" name="main" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="32" fixedrot="false" fric="0.2" gid="7" id="39" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Dead GreenGerm" oid="-1" pausable="true" rest="0.0" shared="false" sprite="40" static="false" touchable="true">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="35" fixedrot="false" fric="0.2" gid="7" id="43" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Dead RedGerm" oid="-1" pausable="true" rest="0.0" shared="false" sprite="44" static="false" touchable="true">
+        <snippets/>
+    </actor>
     <music desc="" id="25" loop="true" name="Exp" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <sprite atlasID="0" default="0" desc="" height="64" id="46" name="Explosion" shared="false" width="64">
+        <anim across="9" atlasID="-1" down="1" durations="40,70,70,70,70,70,70,70,70" height="64" id="0" loop="true" name="main" numframes="9" originx="32" originy="32" width="576"/>
+    </sprite>
     <sprite atlasID="0" default="0" desc="" height="48" id="14" name="Explosion" shared="false" width="48">
         <anim across="15" atlasID="-1" down="1" durations="80,80,80,80,80,80,80,80,80,80,80,80,80,80,80" height="48" id="0" loop="false" name="main" numframes="15" originx="24" originy="24" width="720">
             <poly data="4,0,1,32,1,32,31,0,31" density="0.1" fric="0.2" gid="6" id="0" name="main" rest="0.0" sensor="true"/>
@@ -78,6 +105,9 @@
         </snippets>
     </actor>
     <music desc="" id="28" loop="true" name="Hmpf" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="36" fixedrot="false" fric="0.2" gid="7" id="45" ignoreg="true" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Infection" oid="-1" pausable="true" rest="0.0" shared="false" sprite="46" static="false" touchable="true">
+        <snippets/>
+    </actor>
     <music desc="" id="20" loop="true" name="InGame 1" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <music desc="" id="19" loop="true" name="InGame 2" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <music desc="" id="36" loop="true" name="InGame3" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>

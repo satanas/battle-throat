@@ -80,6 +80,9 @@
         <actor a="0.0" aid="67" c="false" group="5" id="7" name="Wall 67" sx="1.0" sy="1.0" x="480" y="0" z="0"/>
     </actors>
     <snippets>
+        <s enabled="true" id="33">
+            <prop id="1" list="0" val="false"/>
+        </s>
         <s enabled="true" id="18">
             <prop id="1" list="0" val="0.0"/>
             <prop id="2" list="0" val="0"/>

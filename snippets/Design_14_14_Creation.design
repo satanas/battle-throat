@@ -58,12 +58,6 @@
                 <set-game-val-2 comment="false" x="26" y="314">
                     <false comment="false" id="0" x="0" y="0"/>
                 </set-game-val-2>
-                <set-game-val-1 comment="false" x="26" y="339">
-                    <false comment="false" id="0" x="0" y="0"/>
-                </set-game-val-1>
-                <set-game-val-5 comment="false" x="26" y="364">
-                    <false comment="false" id="0" x="0" y="0"/>
-                </set-game-val-5>
             </group>
         </init>
     </group>

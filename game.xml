@@ -6,24 +6,24 @@
         <group desc="" id="4" name="Germs"/>
         <group desc="" id="5" name="Walls"/>
         <group desc="" id="6" name="Explosions"/>
+        <group desc="" id="7" name="Limbo"/>
     </groups>
     <cgroups>
-        <cgroup g1="5" g2="0"/>
-        <cgroup g1="5" g2="3"/>
-        <cgroup g1="4" g2="0"/>
+        <cgroup g1="3" g2="3"/>
+        <cgroup g1="1" g2="0"/>
         <cgroup g1="4" g2="3"/>
         <cgroup g1="4" g2="6"/>
-        <cgroup g1="1" g2="0"/>
-        <cgroup g1="1" g2="3"/>
-        <cgroup g1="3" g2="3"/>
+        <cgroup g1="4" g2="0"/>
+        <cgroup g1="5" g2="3"/>
+        <cgroup g1="5" g2="0"/>
     </cgroups>
     <input>
-        <key id="0" keyname="UP" name="up" vk="38"/>
-        <key id="1" keyname="DOWN" name="down" vk="40"/>
-        <key id="2" keyname="LEFT" name="left" vk="37"/>
-        <key id="3" keyname="RIGHT" name="right" vk="39"/>
-        <key id="4" keyname="SPACE" name="action1" vk="32"/>
-        <key id="6" keyname="ENTER" name="enter" vk="10"/>
+        <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
+        <key id="1" keyname="DOWN" name="down" vk="40" vks="40"/>
+        <key id="2" keyname="LEFT" name="left" vk="37" vks="37"/>
+        <key id="3" keyname="RIGHT" name="right" vk="39" vks="39"/>
+        <key id="4" keyname="SPACE" name="action1" vk="32" vks="32"/>
+        <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
@@ -31,15 +31,16 @@
     <props/>
     <attributes>
         <number cid="-1" id="6" name="CurrentLevel" save="true" value="1.0"/>
-        <bool cid="-1" id="2" name="Converted" save="true" value="false"/>
-        <bool cid="-1" id="1" name="Shooted" save="true" value="false"/>
         <number cid="-1" id="0" name="Angle" save="true" value="-40.0"/>
         <number cid="-1" id="7" name="MaxLevels" save="true" value="6.0"/>
         <bool cid="-1" id="5" name="Killing" save="true" value="false"/>
         <number cid="-1" id="8" name="EnemiesLeft" save="true" value="0.0"/>
+        <bool cid="-1" id="12" name="Converting" save="true" value="false"/>
         <number cid="-1" id="4" name="Canon Sensitivity" save="true" value="0.015"/>
+        <bool cid="-1" id="11" name="Shooting" save="true" value="false"/>
         <number cid="-1" id="3" name="Score" save="true" value="0.0"/>
-        <number cid="-1" id="9" name="BottomLine" save="true" value="410"/>
+        <bool cid="-1" id="13" name="CannonLoaded" save="true" value="true"/>
+        <number cid="-1" id="9" name="BottomLine" save="true" value="410.0"/>
     </attributes>
     <collisions>
         <poly id="1" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -65,7 +66,7 @@
         <poly id="20" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
     </collisions>
     <atlases>
-        <atlas dirty="true" id="0" members="0,2,7,9,11,13,30,32,21,29,37,38,4,34,35" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="0" members="0,2,7,9,11,13,30,32,39,41,43,45,21,29,37,38,4,34,35" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" start="true" target="0"/>

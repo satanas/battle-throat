@@ -103,26 +103,26 @@
                     <int id="1" val="600"/>
                     <int id="2" val="45"/>
                 </draw-text>
-                <draw-text comment="true" x="26" y="529">
-                    <tostring comment="true" id="0" x="0" y="0">
-                        <get-game-val-5 comment="true" id="0" x="0" y="0"/>
+                <draw-text comment="false" x="26" y="529">
+                    <tostring comment="false" id="0" x="0" y="0">
+                        <get-game-val-5 comment="false" id="0" x="0" y="0"/>
                     </tostring>
                     <int id="1" val="10"/>
-                    <int id="2" val="60"/>
+                    <int id="2" val="120"/>
                 </draw-text>
-                <draw-text comment="true" x="26" y="559">
-                    <tostring comment="true" id="0" x="0" y="0">
-                        <get-game-val-1 comment="true" id="0" x="0" y="0"/>
+                <draw-text comment="false" x="26" y="559">
+                    <tostring comment="false" id="0" x="0" y="0">
+                        <get-game-val-11 comment="false" id="0" x="0" y="0"/>
                     </tostring>
                     <int id="1" val="10"/>
-                    <int id="2" val="80"/>
+                    <int id="2" val="140"/>
                 </draw-text>
-                <draw-text comment="true" x="26" y="589">
-                    <tostring comment="true" id="0" x="0" y="0">
-                        <get-game-val-2 comment="true" id="0" x="0" y="0"/>
+                <draw-text comment="false" x="26" y="589">
+                    <tostring comment="false" id="0" x="0" y="0">
+                        <get-game-val-13 comment="false" id="0" x="0" y="0"/>
                     </tostring>
                     <int id="1" val="10"/>
-                    <int id="2" val="100"/>
+                    <int id="2" val="160"/>
                 </draw-text>
             </group>
         </draw>
