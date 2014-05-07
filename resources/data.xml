@@ -21,11 +21,11 @@
             <s enabled="true" id="11">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="31">
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
             <s enabled="true" id="14">
                 <prop id="1" list="0" val="0.0"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="31">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -112,6 +112,7 @@
     <music desc="" id="19" loop="true" name="InGame 2" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <music desc="" id="36" loop="true" name="InGame3" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="38" name="Lose" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
+    <music desc="" id="47" loop="true" name="LoseSound" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="29" name="Mouth" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <music desc="" id="27" loop="true" name="Nooo" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <music desc="" id="18" loop="true" name="Opening" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
@@ -144,4 +145,5 @@
     </actor>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="21" name="Welcome" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="37" name="Winner" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
+    <music desc="" id="48" loop="true" name="WinSound" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
 </pack>

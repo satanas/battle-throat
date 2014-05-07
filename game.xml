@@ -32,14 +32,14 @@
     <attributes>
         <number cid="-1" id="6" name="CurrentLevel" save="true" value="1.0"/>
         <number cid="-1" id="0" name="Angle" save="true" value="-40.0"/>
-        <number cid="-1" id="7" name="MaxLevels" save="true" value="6.0"/>
         <bool cid="-1" id="5" name="Killing" save="true" value="false"/>
+        <number cid="-1" id="7" name="MaxLevels" save="true" value="6.0"/>
         <number cid="-1" id="8" name="EnemiesLeft" save="true" value="0.0"/>
         <bool cid="-1" id="12" name="Converting" save="true" value="false"/>
         <number cid="-1" id="4" name="Canon Sensitivity" save="true" value="0.015"/>
         <bool cid="-1" id="11" name="Shooting" save="true" value="false"/>
-        <number cid="-1" id="3" name="Score" save="true" value="0.0"/>
         <bool cid="-1" id="13" name="CannonLoaded" save="true" value="true"/>
+        <number cid="-1" id="3" name="Score" save="true" value="0.0"/>
         <number cid="-1" id="9" name="BottomLine" save="true" value="410.0"/>
     </attributes>
     <collisions>
